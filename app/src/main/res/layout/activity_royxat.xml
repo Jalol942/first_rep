@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RoyxatActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/btnSaqlash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="98dp"
+            android:layout_marginEnd="239dp"
+            android:layout_marginRight="239dp"
+            android:layout_marginBottom="585dp"
+            android:text="Saqlash" />
+
+        <Button
+            android:id="@+id/btnBarchaDelete"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="221dp"
+            android:layout_marginLeft="221dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginRight="22dp"
+            android:text="Ro'yxatni o'chirish" />
+
+        <ListView
+            android:id="@+id/lvKontaktlar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/btnSaqlash"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            tools:ignore="UnknownId" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

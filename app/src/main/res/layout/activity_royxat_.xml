@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Royxat_Activity">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="o'qish yozish \n By jalolbek"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+
+        />
+
+    <EditText
+        android:id="@+id/enterText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="kirish_text_here"
+        android:inputType="text"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/writeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fayl orqali yozish"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/readText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="fayldan o'qish"
+        android:textAllCaps="false"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/showText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text korsatish"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"/>
+</LinearLayout>

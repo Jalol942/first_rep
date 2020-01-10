@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mexmonxona</string>
+    <string name="Ism_kiriting">ism_kiriting</string>
+    <string name="raqam_kiriting">raqam_kiriting</string>
+    <string name="email_kiriting">email_kiriting</string>
+    <string name="mijozni_saqlash">mijozni_saqlash</string>
+    <string name="kirish_text_here">Kirish Text Here</string>
+</resources>

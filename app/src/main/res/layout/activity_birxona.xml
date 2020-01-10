@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#181616"
+    tools:context=".BirxonaActivity">
+
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/birxona"
+        />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="229dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+
+        android:text="Bizni bir xonali xonamizda asosan bir odam turadi.
+Narxlari:
+kunlik=35000so'm.
+Oylik=700000so'm
+Yillik=5000000so'm"
+        android:textColor="#fff"
+        android:textSize="25dp"/>
+</LinearLayout>

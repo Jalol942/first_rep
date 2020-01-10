@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <EditText
+            android:id="@+id/etIsm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="192dp"
+            android:layout_marginRight="192dp"
+            android:layout_marginBottom="680dp"
+            android:ems="10"
+            android:hint="@string/Ism_kiriting"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etRaqam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="62dp"
+            android:layout_marginEnd="188dp"
+            android:layout_marginRight="188dp"
+            android:layout_marginBottom="624dp"
+            android:ems="10"
+            android:hint="@string/raqam_kiriting"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="121dp"
+            android:layout_marginEnd="188dp"
+            android:layout_marginRight="188dp"
+            android:layout_marginBottom="565dp"
+            android:ems="10"
+            android:hint="@string/email_kiriting"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/btnMijozsaqlash"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="105dp"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="274dp"
+            android:layout_marginEnd="134dp"
+            android:layout_marginRight="134dp"
+            android:layout_marginBottom="394dp"
+            android:text="@string/mijozni_saqlash" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
